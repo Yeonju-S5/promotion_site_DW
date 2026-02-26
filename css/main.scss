@@ -216,19 +216,19 @@ body {
     background-repeat: no-repeat;
 
     &:nth-child(1) {
-      background-image: url(/images/banner01.png);
+      background-image: url(../images/banner01.png);
     }
 
     &:nth-child(2) {
-      background-image: url(/images/banner02.png);
+      background-image: url(../images/banner02.png);
     }
 
     &:nth-child(3) {
-      background-image: url(/images/banner03.png);
+      background-image: url(../images/banner03.png);
     }
 
     &:nth-child(4) {
-      background-image: url(/images/banner04.png);
+      background-image: url(../images/banner04.png);
     }
 
   }
