@@ -6,25 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dongwha_main</title>
 
+  <!-- Fonts -->
   <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-kopub@1.0">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.2.2/jquery.mousewheel.min.js"></script>
-
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.2.2/jquery.mousewheel.min.js" defer></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js" defer></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
-
+  <!-- Styles -->
   <link rel="stylesheet" href="./css/main.css">
+
+  <!-- Scripts -->
   <script src="./js/main.js" defer></script>
 
+  <!-- Favicon -->
   <link rel="icon" href="./images/symbol.png" type="image/png">
 
   <style>
@@ -57,7 +62,7 @@
 <body>
 
   <!-- --------- 메인 메뉴 --------- -->
-  <nav class="main_menu_outer">
+  <nav class="main_menu_outer" aria-label="주 메뉴">
     <div class="main_menu">
       <div class="logo"><a href="#"><img src="./images/logo.png" alt="로고"></a></div>
       <ul class="main_list">
@@ -167,13 +172,8 @@
         </p>
       </div>
 
-      <div class="num_info_page01">
-        <p>129 Years</p>
-        <div class="divider"></div>
-        <p>200+ Products</p>
-        <div class="divider"></div>
-        <p>1000+ Employees</p>
-      </div>
+      <!-- 여기에 키워드 html 이 있었어 -->
+
     </div> <!-- PAGE 01 -->
 
     <section id="page02" class="page_scroll_section page">
@@ -183,16 +183,15 @@
           THE BEST
         </div>
         <div class="main_txt_page02">최초의 제약회사,<br>최고를 위해 발전하다.</div>
-        <div class="sub_txt_page02">"정당한 땀방울로 일구어온 신뢰의 역사를 바탕으로, 동화약품은 고객의 안전과 직원의 가치를 최우선하며 인류의 더 나은 내일을 개척해 나갑니다."
-        </div>
+        <!-- <div class="sub_txt_page02">"정당한 땀방울로 일구어온 신뢰의 역사를 바탕으로, 동화약품은 고객의 안전과 직원의 가치를 최우선하며 인류의 더 나은 내일을 개척해 나갑니다."
+        </div> -->
       </div>
 
       <div class="move_contents">
         <div class="content_item item01" id="content01">
           <div class="title_item">1897년부터 이어진 '최초'와 '최고'의 타이틀</div>
           <img src="./images/img_history.png" alt="기네스북 액자 및 활명수 옛 외형">
-          <p>국내 유일의 '동일장소·동일상호·동일제품' 유지. 동화약품이 보유한 4개의 기네스 기록은 단순한 숫자가 아닌 민족의 건강을 지켜온 긍지의 증거입니다. 국내 최초의 신약 '활명수'와 민족의
-            합심을 상징하는 '부채표' 상표등록(1910년)까지, 우리는 가장 오래된 상장기업으로서 오늘도 새로운 기록을 써 내려가고 있습니다.</p>
+          <p>국내 유일의 '동일장소·동일상호·동일제품' 유지. 동화약품이 보유한 4개의 기네스 기록은 단순한 숫자가 아닌 민족의 건강을 지켜온 긍지의 증거입니다.</p>
 
           <div class="more_btn_content01">
             <a href="https://www.dong-wha.co.kr/company/history.asp">
@@ -205,8 +204,7 @@
         </div>
         <div class="content_item item02" id="content02">
           <div class="title_item">세계를 향한 끊임없는 도전, R&D 혁신</div>
-          <p>1973년 중앙연구소 발족 이후, 동화약품은 '세계 최초'와 '국내 최초'의 길을 개척해 왔습니다. 세계 최초의 방사성 간암 치료제 '밀리칸주'부터 퀴놀론계 항균제 '자보란테'까지, 우리는
-            축적된 기술력을 바탕으로 인류 보건에 기여하는 글로벌 신약 개발에 매진하고 있습니다.</p>
+          <p>대한민국 제약의 역사에서 함께한 개척 정신으로, 세계가 신뢰하는 신약의 길을 열겠습니다.</p>
           <ul class="item02_list">
             <li>
               <a href="https://www.dong-wha.co.kr/rnd/achievement.asp"></a>
@@ -258,7 +256,7 @@
               </a>
             </div>
           </div>
-          <p>환경(E)과 사회(S)에 대한 책임을 연구의 근간으로 삼아, 질병 없는 세상을 만드는 혁신 신약부터 일상을 돌보는 기능성 소재까지—동화약품이 제안하는 건강한 미래를 확인해 보세요.</p>
+          <p>연구를 통해, 혁신 신약과 기능성 소재로 이어지는 동화약품의 실효성 있는 행보를 확인해 보세요.</p>
           <div class="more_btn_content03">
             <a href="https://www.dong-wha.co.kr/rnd/mainareas.asp">
               <div>주요 연구과제 더보기</div>
@@ -285,7 +283,7 @@
     </section>
   </section> <!--wrap(page01 ~ page02)-->
   <div class="wrap02">
-    <div id="page03" class="page">
+    <section id="page03" class="page">
       <div class="semi_title_page03">OUR PRODUCTS</div>
       <div class="theme_page03">
         <div class="title_page03">대표 상품</div>
@@ -306,17 +304,16 @@
               <div class="product_right">
                 <div class="product_index">
                   <div class="product_num">01</div>
-                  <div class="product_hash">일반의약품</div>
+                  <div class="product_name">상처 치료의 대명사, 후시딘.</div>
                 </div>
-                <div class="product_txt">상처 치료의 대명사 후시딘.<br>
-                  피부 상처에 세균이 감염되는 것을 막고, 감염된 세균을 살균하는 '항생제 연고'<br>
-                  가정 상비약의 필수품입니다.
+                <div class="product_hash">#일반의약품 #상처치료제</div>
+                <div class="product_txt">
+                  피부 상처의 세균 감염을 막고 살균하는 대한민국 대표 항생제 연고입니다.
+                  높은 침투력으로 흉터를 최소화하며, 온 가족 건강을 위한 가정 상비약의 필수품입니다.
                 </div>
                 <div class="btn_product">
                   <div class="list_btn">리스트 보기</div>
-                  <div class="product_more_btn"><a
-                      href="https://www.dong-wha.co.kr/product/content.asp?t_idx=85&t_page=1&d=&b=20&s=23">자세히보기</a>
-                  </div>
+                  <div class="product_more_btn"><a href="#!">자세히보기</a></div>
                 </div>
               </div>
             </div>
@@ -327,11 +324,12 @@
               <div class="product_right">
                 <div class="product_index">
                   <div class="product_num">02</div>
-                  <div class="product_hash">일반의약품</div>
+                  <div class="product_name">소화 솔루션, 활명수.</div>
                 </div>
-                <div class="product_txt">상처 치료의 대명사 후시딘.<br>
-                  피부 상처에 세균이 감염되는 것을 막고, 감염된 세균을 살균하는 '항생제 연고'<br>
-                  가정 상비약의 필수품입니다.
+                <div class="product_hash">#일반의약품 #액상소화제</div>
+                <div class="product_txt">
+                  11가지 생약 성분이 위장 운동을 돕고 답답한 속을 시원하게 해결해 줍니다.
+                  과식, 체함 등 소화기 질환을 빠르게 진정시키며 상황에 맞는 다양한 라인업을 제공합니다.
                 </div>
                 <div class="btn_product">
                   <div class="list_btn">리스트 보기</div>
@@ -346,11 +344,12 @@
               <div class="product_right">
                 <div class="product_index">
                   <div class="product_num">03</div>
-                  <div class="product_hash">일반의약품</div>
+                  <div class="product_name">잇몸 치료제, 잇치.</div>
                 </div>
-                <div class="product_txt">상처 치료의 대명사 후시딘.<br>
-                  피부 상처에 세균이 감염되는 것을 막고, 감염된 세균을 살균하는 '항생제 연고'<br>
-                  가정 상비약의 필수품입니다.
+                <div class="product_hash">#일반의약품 #잇몸치료제</div>
+                <div class="product_txt">
+                  별도의 치약 없이 양치와 잇몸 마사지를 동시에 해결하는 스마트한 잇몸 치료제입니다.
+                  3가지 생약 성분이 잇몸의 붓기와 출혈을 완화하며, 일상 속에서 가장 간편하게 구강 건강을 지켜줍니다.
                 </div>
                 <div class="btn_product">
                   <div class="list_btn">리스트 보기</div>
@@ -365,11 +364,12 @@
               <div class="product_right">
                 <div class="product_index">
                   <div class="product_num">04</div>
-                  <div class="product_hash">일반의약품</div>
+                  <div class="product_name">종합 감기 솔루션, 판콜.</div>
                 </div>
-                <div class="product_txt">상처 치료의 대명사 후시딘.<br>
-                  피부 상처에 세균이 감염되는 것을 막고, 감염된 세균을 살균하는 '항생제 연고'<br>
-                  가정 상비약의 필수품입니다.
+                <div class="product_hash">#일반의약품 #종합감기약</div>
+                <div class="product_txt">
+                  콧물, 기침, 발열 등 감기의 초기 증상을 빠르고 효과적으로 완화하는 액상 감기약입니다.
+                  아이부터 성인까지 증상에 맞춘 세분화된 라인업으로, 언제 어디서나 가족의 건강을 든든하게 지켜줍니다.
                 </div>
                 <div class="btn_product">
                   <div class="list_btn">리스트 보기</div>
@@ -406,8 +406,8 @@
           </ul>
         </nav>
       </div>
-    </div>
-    <div id="page04" class="page">
+    </section>
+    <section id="page04" class="page">
       <div class="title_page04">뉴스 & 소식</div>
       <div class="txt_page04">동화 약품의 최신 소식과 다양한 활동
       </div>
@@ -445,14 +445,17 @@
               <img src="./images/img_news03.jpg" alt="ESG">
             </div>
             <div class="news_more">
-              <p>최신 소식 더보기</p>
-              <div class="news_more_btn"><span class="material-symbols-rounded">
-                  arrow_forward_ios
-                </span></div>
+              <div class="more_pill_btn">
+                <p>최신 소식 더보기</p>
+                <div class="news_more_btn">
+                  <span class="material-symbols-rounded">arrow_forward_ios</span>
+                </div>
+              </div>
             </div>
           </a>
         </div><!--news03 / more_section-->
       </div>
+
       <div class="brand_line">
         <ul class="brand_line_top">
           <li><img src="./images/img_brand01.png" alt="가족친화 우수기업"></li>
@@ -480,39 +483,13 @@
           <li><img src="./images/img_brand07.png" alt="더마 코스메틱"></li>
           <li><img src="./images/img_brand08.png" alt="동화 e-mall"></li><!-- 채우기 위한 8개 -->
         </ul>
-        <ul class="brand_line_bottom">
-          <li><img src="./images/img_brand01.png" alt="가족친화 우수기업"></li>
-          <li><img src="./images/img_brand02.png" alt="CA'AA'등급"></li>
-          <li><img src="./images/img_brand03.png" alt="IAF"></li>
-          <li><img src="./images/img_brand04.png" alt="활명수"></li>
-          <li><img src="./images/img_brand05.png" alt="잇치"></li>
-          <li><img src="./images/img_brand06.png" alt="드라이언"></li>
-          <li><img src="./images/img_brand07.png" alt="더마 코스메틱"></li>
-          <li><img src="./images/img_brand08.png" alt="동화 e-mall"></li><!-- 기본 8개 -->
-          <li><img src="./images/img_brand01.png" alt="가족친화 우수기업"></li>
-          <li><img src="./images/img_brand02.png" alt="CA'AA'등급"></li>
-          <li><img src="./images/img_brand03.png" alt="IAF"></li>
-          <li><img src="./images/img_brand04.png" alt="활명수"></li>
-          <li><img src="./images/img_brand05.png" alt="잇치"></li>
-          <li><img src="./images/img_brand06.png" alt="드라이언"></li>
-          <li><img src="./images/img_brand07.png" alt="더마 코스메틱"></li>
-          <li><img src="./images/img_brand08.png" alt="동화 e-mall"></li><!-- 채우기 위한 8개 -->
-          <li><img src="./images/img_brand01.png" alt="가족친화 우수기업"></li>
-          <li><img src="./images/img_brand02.png" alt="CA'AA'등급"></li>
-          <li><img src="./images/img_brand03.png" alt="IAF"></li>
-          <li><img src="./images/img_brand04.png" alt="활명수"></li>
-          <li><img src="./images/img_brand05.png" alt="잇치"></li>
-          <li><img src="./images/img_brand06.png" alt="드라이언"></li>
-          <li><img src="./images/img_brand07.png" alt="더마 코스메틱"></li>
-          <li><img src="./images/img_brand08.png" alt="동화 e-mall"></li><!-- 채우기 위한 8개 -->
-        </ul>
       </div>
-    </div>
+    </section>
   </div>
 
 
 
-  <div class="footer">
+  <footer class="footer">
     <div class="footer_top">
       <a href="#">
         <div class="footer_logo"><img src="./images/logo.png" alt=""></div>
@@ -522,7 +499,6 @@
         <a href="https://www.instagram.com/dongwha_pharm/?hl=ko"><img src="./images/icon_youtube.png" alt="유튜브"></a>
       </div>
     </div>
-    <hr>
     <section class="footer_middle">
       <ul>
         <li><a href="#!">회사소개</a></li>
@@ -536,11 +512,10 @@
         대표이사 : 유준하, 윤인호 사업자등록번호 : 110-81-00102
       </div>
     </section>
-    <hr>
     <p class="footer_bottom">
       &copy; Copyright(c) DONG WHA PHARM. CO., LTD. All Rights Reserved
     </p>
-  </div>
+  </footer>
 
   <button class="top_btn">TOP</button>
 
