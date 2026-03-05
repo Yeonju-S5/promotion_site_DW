@@ -4,7 +4,6 @@
 > 1897년부터 이어온 국내 최초 제약사 동화약품의 정신을 담아 현대적이고 신뢰감 있는 UI로 재해석한 반응형 퍼블리싱 프로젝트입니다.
 
 
-
 ## 🚀 Project Summary
 
 | 항목 | 내용 |
@@ -13,7 +12,6 @@
 | **담당 역할** | 기획, UI/UX 디자인, 퍼블리싱 (단독 진행 100%) |
 | **기술 스택** | HTML5, SCSS, JavaScript, GSAP (ScrollTrigger) |
 | **배포 링크** | [🔗 사이트 바로가기](https://yeonju-s5.github.io/promotion_site_DW/) |
-
 
 
 ## 📅 Project Timeline
@@ -36,7 +34,6 @@
 </details>
 
 
-
 ## 🛠 Tech Stacks
 
 <p>
@@ -46,7 +43,6 @@
   <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white">
 </p>
-
 
 
 ## ✨ Key Points & Improvements
@@ -61,7 +57,6 @@
 
 ### 3️⃣ 클린 & 모던 푸터 레이아웃
 - **Information Architecture**: 제약회사 특유의 신뢰감을 위해 화이트 톤을 유지하되, 물리적인 구분선을 최소화하고 **여백(Space)** 으로 정보를 구획화
-
 
 
 ## 📂 Directory Structure
