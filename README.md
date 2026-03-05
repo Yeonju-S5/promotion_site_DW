@@ -3,7 +3,7 @@
 > **"민족이 합심하면 잘 살 수 있다"**
 > 1897년부터 이어온 국내 최초 제약사 동화약품의 정신을 담아 현대적이고 신뢰감 있는 UI로 재해석한 반응형 퍼블리싱 프로젝트입니다.
 
---
+
 
 ## 🚀 Project Summary
 
@@ -14,9 +14,12 @@
 | **기술 스택** | HTML5, SCSS, JavaScript, GSAP (ScrollTrigger) |
 | **배포 링크** | [🔗 사이트 바로가기](https://yeonju-s5.github.io/promotion_site_DW/) |
 
---
+
 
 ## 📅 Project Timeline
+<details>
+<summary><b>상세 일정 보기 (클릭하여 열기/닫기)</b></summary>
+<div markdown="1">
 
 ### ▫️ Phase 1. Planning & Design `(01.28 - 02.11)`
 - 브랜드 아이덴티티 분석 및 리뉴얼 제안서 작성
@@ -29,7 +32,10 @@
 ### ▫️ Phase 3. Refinement `(03.03 - 03.05)`
 - 피드백 반영을 통한 여백 및 세부 디테일 조정 (최종 통과 ✨)
 
---
+</div>
+</details>
+
+
 
 ## 🛠 Tech Stacks
 
@@ -41,7 +47,7 @@
   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white">
 </p>
 
----
+
 
 ## ✨ Key Points & Improvements
 
@@ -56,7 +62,7 @@
 ### 3️⃣ 클린 & 모던 푸터 레이아웃
 - **Information Architecture**: 제약회사 특유의 신뢰감을 위해 화이트 톤을 유지하되, 물리적인 구분선을 최소화하고 **여백(Space)**으로 정보를 구획화
 
----
+
 
 ## 📂 Directory Structure
 ```text
@@ -65,6 +71,6 @@ project/
 ├── images/ (최적화 이미지 자산)
 ├── js/
 │   └── main.js (GSAP & UI Interaction Logic)
-└── index.html
+└── index.html ```
 
 © 2026 Seo YeonJu. All rights reserved.
