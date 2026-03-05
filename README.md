@@ -5,9 +5,21 @@
 ---
 
 ## 🚀 Project Overview
-* **작업 기간**: 2026.02 - 2026.03 (약 4주)
-* **구분**: 개인 프로젝트 / 퍼블리싱 (100%)
-* **특징**: 신뢰감 있는 화이트 톤 유지 및 트렌디한 UI 인터랙션 구현
+* **작업 기간**: 2026.01.28 - 2026.03.05 (약 5주)
+* **담당 역할**: 기획, UI/UX 디자인, 퍼블리싱 (개인 프로젝트 100%)
+* **주요 기술**: HTML5, SCSS, JavaScript, GSAP (ScrollTrigger)
+
+## 📅 Project Timeline
+*기획부터 디자인, 최종 QA까지 전 과정을 단독 진행하며 완성도를 높였습니다.*
+
+* **Phase 1: Planning & Design** (01.28 - 02.11)
+  * 브랜드 분석 및 리뉴얼 제안서 작성
+  * UI/UX 레이아웃 기획 및 고정밀 디자인 시안 제작
+* **Phase 2: Publishing** (02.12 - 03.02)
+  * 메인 페이지 HTML5/SCSS 마크업 및 인터랙션 구현
+  * *설 연휴(02.14-18) 자료 리서치 및 개인 학습*
+* **Phase 3: Refinement** (03.03 - 03.05)
+  * 피드백 반영을 통한 여백 및 세부 디테일 조정 (최종 통과)
 
 ## 🛠️ Tech Stacks
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
