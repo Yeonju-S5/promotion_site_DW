@@ -60,6 +60,7 @@ project/
 ├── images/ (최적화 이미지 자산)
 ├── js/
 │   └── main.js (GSAP & UI Interaction Logic)
-└── index.html ```
+└── index.html
+```
 
 © 2026 Seo YeonJu. All rights reserved.
