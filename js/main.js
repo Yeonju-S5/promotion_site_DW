@@ -335,5 +335,5 @@ $(function () {
     repeat: -1,
     ease: "none"
   });
-
+  
 });
